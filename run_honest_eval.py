@@ -282,9 +282,9 @@ def _print_and_save_results(n, history, results):
 
 
 if __name__ == "__main__":
-    MODEL = "model_NoGNN.pt"
+    MODEL = "model_Universal_Final_V5.pt"
     if not os.path.exists(MODEL):
-        print("⚠️ 没找到 NoGNN 模型，请检查文件名是否为 model_NoGNN.pt")
+        print("⚠️ 没找到模型，请检查文件名")
     else:
         SCENARIOS = [20, 40, 60, 80, 100, 120, 140]
         run_honest_evaluation(MODEL, SCENARIOS)

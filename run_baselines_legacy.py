@@ -191,7 +191,7 @@ def evaluate_full_physics(vehicle_list):
 def run_strict_baselines():
     print("🚀 Running Strict Baselines (Aligned Physics)")
 
-    scenarios = [20, 40, 60, 80, 100, 120]
+    scenarios = [20, 40, 60, 80, 100, 120, 140]
 
     # 自动获取 RB 数量
     n_rb = get_param("NUM_CHANNELS")
